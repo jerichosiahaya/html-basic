@@ -1,0 +1,82 @@
+html {
+  margin: 20px 50px;
+}
+
+img.header {
+  width: 100%;
+}
+
+.wrapper {
+  margin-top: 3em;
+}
+
+.default-box {
+  border: 1px solid #000;
+  width: 10em;
+  height: 10em;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+.padding-box {
+  border: 1px solid #000;
+  width: 10em;
+  height: 10em;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding-top: 7em;
+}
+
+.margin-box {
+  border: 1px solid #000;
+  width: 10em;
+  height: 10em;
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding-top: 7em;
+  margin-bottom: 2em;
+}
+
+.explanation {
+  display: flex;
+  flex-direction: row;
+}
+
+.margin-tulisan {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+  padding: 0.5em;
+  width: 10em;
+  background-color: #ccc;
+}
+
+.margin-tulisan-2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+  padding: 0.5em;
+  width: 15em;
+  background-color: #ccc;
+}
+
+.padding-tulisan {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+  padding: 0.5em;
+  width: 10em;
+  background-color: #a0deb0;
+}
+
+.padding-tulisan-2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em;
+  padding: 0.5em;
+  width: 15em;
+  background-color: #a0deb0;
+}

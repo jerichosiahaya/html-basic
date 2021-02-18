@@ -1,0 +1,67 @@
+html {
+  margin: 20px 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.06em solid red;
+  padding-bottom: 1em;
+}
+
+header {
+  width: 695px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+#konten {
+  margin: 30px auto;
+  float: right;
+}
+
+#px {
+  font-size: 16px;
+}
+
+#pt {
+  padding-top: 20px;
+  font-size: 12pt;
+}
+
+#em {
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+#percentage {
+  padding-top: 20px;
+  font-size: 100%;
+}
+
+.relative-keywords {
+  padding-left: 3em;
+}
+
+.relative-keywords p {
+  font-size: larger;
+}
+
+.relative-keywords em {
+  font-size: small;
+}
+
+.inheritance {
+  padding-left: 3em;
+}
+
+.inheritance em, code{
+  font-size: 110%;
+}
+
+.next {
+  float: right;
+  padding: 0.5em;
+}

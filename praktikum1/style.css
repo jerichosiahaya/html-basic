@@ -1,0 +1,68 @@
+html  {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 20px auto 0 auto;
+}
+
+.logo {
+  width: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 450px;
+  height: auto;
+}
+
+/* bagian navbar */
+
+.navbar {
+  margin-top: -20px;
+}
+
+ul {
+  background-color: #2a2a2a;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #ef504d;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size: 10pt;
+  font-weight: bold;
+  width: auto;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #2a2a2a;
+  margin-top: 13px;
+  margin-left: -10px;
+  z-index: 999;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+li:hover {
+  background-color: #ef504d;
+  font-weight: bold;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}

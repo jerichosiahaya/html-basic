@@ -1,0 +1,80 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+
+}
+
+#container {
+  width: 1280px;
+  margin: 20px auto 0 auto;
+
+}
+
+.logo {
+  width: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 450px;
+  height: auto;
+}
+
+/* bagian navbar */
+
+#navbar {
+  margin-top: -20px;
+}
+
+ul {
+  background-color: #2a2a2a;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid #EF504D;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 10px 10px;
+  font-size: 10pt;
+  font-weight: bold;
+  width: auto;
+}
+
+li:hover{
+  background-color: #EF504D;
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li ul.dropdown{
+  background-color: #2a2a2a;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  margin-top: 13px;
+  margin-left: -10px;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+  border-bottom: none;
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+/* bagian konten */
+
+#konten {
+  display: grid;
+}

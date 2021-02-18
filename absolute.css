@@ -1,0 +1,14 @@
+.box-orange {
+    position: absolute;
+    background: orange;
+    width: 100px;
+    height: 100px;
+    top: 70px;
+    left: 30px;
+  }
+
+  .box-blue {
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+  }

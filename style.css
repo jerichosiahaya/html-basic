@@ -1,0 +1,59 @@
+html {
+  margin: 1em 2em;
+  background-color: #F0F1F6;
+  overflow: hidden;
+}
+
+a {
+  color: #142850;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  width: 20em;
+  padding-left: 3em;
+}
+
+.gambar {
+  float: right;
+  margin-top: 1.5em;
+  margin-left: 3em;
+}
+
+.gambar img{
+  width: 100%;
+}
+
+#size {
+  font-size: 2.1em;
+  text-decoration: none;
+}
+
+#class-id {
+  font-size: 2.1em;
+  text-decoration: none;
+}
+
+#display {
+  font-size: 2.1em;
+  text-decoration: none;
+}
+
+#positioning {
+  font-size: 2.1em;
+  text-decoration: none;
+}
+
+#padding-margin {
+  font-size: 2.1em;
+  text-decoration: none;
+}
+
+#navbar {
+  font-size: 2.1em;
+  text-decoration: none;
+}
